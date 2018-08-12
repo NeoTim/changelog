@@ -3,7 +3,9 @@
   <name>Build</name>
   <description />
   <settings>
-    <parameters />
+    <parameters>
+      <param name="env.LOGIN_DA" value="credentialsJSON:09db43cc-6d4c-4a47-8e0b-d2bfd03785b2" spec="password display='hidden' readOnly='true' label='HIDDEN_PASSWORD'" />
+    </parameters>
     <build-runners />
     <vcs-settings>
       <vcs-entry-ref root-id="Changelog_HttpsGitL0naxOrgScmRedevtoChangelogGitRefsHeadsMaster1" />
