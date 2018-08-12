@@ -6,7 +6,18 @@
     <parameters>
       <param name="env.LOGIN_DA" value="credentialsJSON:09db43cc-6d4c-4a47-8e0b-d2bfd03785b2" spec="password description='Contains Password for Artifactory' readOnly='true' label='HIDDEN_PASSWORD' display='hidden'" />
     </parameters>
-    <build-runners />
+    <build-runners>
+      <runner id="RUNNER_1" name="Compiling and Uploading Binarys" type="DockerCommand">
+        <parameters>
+          <param name="command.args" value="--pull --build-arg LOGIN_DA=%env.LOGIN_DA%" />
+          <param name="docker.command.type" value="build" />
+          <param name="docker.push.remove.image" value="true" />
+          <param name="dockerfile.path" value="Dockerfile" />
+          <param name="dockerfile.source" value="PATH" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+    </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="Changelog_HttpsGitL0naxOrgScmRedevtoChangelogGitRefsHeadsMaster1" />
     </vcs-settings>
