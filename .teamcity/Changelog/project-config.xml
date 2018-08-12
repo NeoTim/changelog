@@ -14,9 +14,8 @@
     </extension>
     <extension id="PROJECT_EXT_4" type="IssueTracker">
       <parameters>
-        <param name="autoSync" value="true" />
         <param name="host" value="https://intern.l0nax.org/jira" />
-        <param name="idPrefix" value="" />
+        <param name="idPrefix" value="REDEVCHAN" />
         <param name="name" value="l0nax Issue Tracker (JIRA)" />
         <param name="secure:password" value="credentialsJSON:b30cbba6-1fe6-4271-af7e-8acdc997b144" />
         <param name="type" value="jira" />
