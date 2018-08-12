@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="3adb5974-0504-4ead-a905-4884be7ef4f9" type="jetbrains.git" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>https://git.l0nax.org/scm/redevto/changelog.git#refs/heads/master</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="refs/heads/master" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="secure:password" value="credentialsJSON:b30cbba6-1fe6-4271-af7e-8acdc997b144" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="teamcity:branchSpec"><![CDATA[+:refs/heads/feature/(*)
++:refs/heads/bugfix/(*)
++:refs/heads/hotfix/(*)]]></param>
+  <param name="url" value="https://git.l0nax.org/scm/redevto/changelog.git" />
+  <param name="useAlternates" value="true" />
+  <param name="username" value="eb" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+
