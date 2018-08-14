@@ -1,8 +1,10 @@
 # Changelog
 
+![build](https://img.shields.io/teamcity/http/ci.l0nax.org/s/Changelog_Build.svg?style=flat-square)
+
 This is a "Sub-Module" of the **Release & Developer Toolkit**.
 
-## Status
+Click [here](https://intern.l0nax.org/jira/projects/REDEVCHAN/issues) to go to our Issue Tracker.
 
 
 ## License
