@@ -12,6 +12,25 @@ Click [here](https://intern.l0nax.org/jira/projects/REDEVCHAN/issues) to go to o
 This Project is Licensed under the [MIT License](LICENSE).
 You find the License in the [LICENSE](LICENSE) File.
 
+## Download
+
+**Coming Soon**
+
+## Build
+
+**It is recommended to download the Binarys!!**
+
+1. You must install [Conan](https://conan.io)
+2. Add the Bincrafters Conan Repository
+```bash
+~$ conan remote add bincrafters_public https://api.bintray.com/conan/bincrafters/public-conan 
+``` 
+3. Compile
+```bash
+~$ mkdir _build && cd _build
+~$ conan install .. --build=missing
+~$ cmake ..
+```
 
 ## Usage
 
