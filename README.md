@@ -9,8 +9,8 @@ Click [here](https://intern.l0nax.org/jira/projects/REDEVCHAN/issues) to go to o
 
 ## License
 
-This Project is Licensed under [GNU General Public License v3.0](LICENSE).
-You find the License in the `[LICENSE](LICENSE)` File.
+This Project is Licensed under the [MIT License](LICENSE).
+You find the License in the [LICENSE](LICENSE) File.
 
 
 ## Usage
